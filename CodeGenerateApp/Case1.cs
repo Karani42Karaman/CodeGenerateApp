@@ -4,6 +4,18 @@ using System.Text;
 
 namespace CodeGenerateApp
 {
+    /// <summary>
+    /// Kod mantığı bize verilen karakter kümesi içinde random 8 haneli kod üretiliyor
+    /// ardından her karakterin indexi benim belirlemiş olduğum unique anahtar ile kod yeniden oluşturuluyor aşağıda kod 
+    /// içinde vermiş olduğum denklemler sayesinde 
+    /// yani unique anahtar ve unique kod üretilmiş oluyor
+    /// kodu çözmek içinde elimizde anahtarın olması gerekir tabiki.
+    /// 
+    /// anahtar = 438+5  
+    /// 483 karani karakterlerinin ascii decimal toplamları  5 ise asıl unique liği saplayan yapı ben bunu bir veri tabanında tutulursa
+    /// yada herhangi bir yerde diye index id si olsun diye ayarladım 5 burda değişkenlik gösteririr.
+    /// 
+    /// </summary>
     public static class Case1
     {
         public static void Generator()
